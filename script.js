@@ -5,7 +5,7 @@ function updateUTCTime() {
   const minutes = now.getUTCMinutes().toString().padStart(2, "0");
   const seconds = now.getUTCSeconds().toString().padStart(2, "0");
   const milliseconds = now.getUTCMilliseconds().toString().padStart(3, "0");
-  const timeString = `${hours}:${minutes}:${seconds}:${milliseconds}`;
+  const timeString = `${hours}:${minutes}:${seconds}`;
   document.getElementById("utc").textContent = timeString;
 }
 
