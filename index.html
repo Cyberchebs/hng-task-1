@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+      wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
+      1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>HNG Frontend dev info</h1>
+    </nav>
+    <section class="info_section">
+      <div>
+        <div>
+          <h2>Frontend developer</h2>
+          <img
+            data-testid="slackProfilePicture"
+            src="./assets/IMG_20240627_093221 (1).jpg"
+            alt=""
+          />
+        </div>
+        <h2 data-testid="slackDisplayName">cybergamerChef</h2>
+        <h3 data-testid="slackEmail">chebemnzomblack@gmail.com</h3>
+      </div>
+      <div class="time-info">
+        <div class="time-info_utc">
+          <i class="fas fa-globe-africa"></i>
+          <h2>UTC</h2>
+          <span id="utc" data-testid="CurrentTimeUTC"></span>
+        </div>
+        <div class="time-info_Day">
+          <i class="fas fa-sun"></i>
+          <h2>Current Day</h2>
+          <span id="day" data-testid="CurrentDay"></span>
+        </div>
+      </div>
+    </section>
+    <section class="goals_section">
+      <h1>my future goals as a frontend dev &lt;/&gt;</h1>
+      <div class="goals-container">
+        <div>
+          <i class="fas fa-brain"></i>
+          <p>full mastery of frontend technologies</p>
+        </div>
+        <div>
+          <i class="fab fa-facebook-square"></i>
+          <p>
+            employment into the facebook industry and join in the metaverse
+            project
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-cubes"></i>
+          <p>creation of a visually appaling 3d website</p>
+        </div>
+      </div>
+    </section>
+    <footer class="good-links">
+      <h1>here are links of great help for webdev</h1>
+      <div class="links-container">
+        <div class="links-container_box">
+          <p>trying to learn how to code click here</p>
+          <button>
+            <a data-testid="hngLink" href="https://hng.tech/learn"> HNG.tech</a>
+          </button>
+        </div>
+        <div class="links-container_box">
+          <p>for ways to dominate search rankings click here</p>
+          <button>
+            <a data-testid="KeywordLink" href="https://keyword.dog"
+              >KeyWord.dog</a
+            >
+          </button>
+        </div>
+        <div class="links-container_box">
+          <p>for a website scraping tool click here</p>
+          <button>
+            <a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site"
+              >scrapeanyweb.site</a
+            >
+          </button>
+        </div>
+
+        <p>2024 copyright Ltd</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
