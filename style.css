@@ -31,7 +31,7 @@ nav h1 {
     rgba(3, 152, 240, 1) 91%
   );
 
-  padding: 50px;
+  padding: 20px 35px;
 }
 
 .time-info {
@@ -165,10 +165,21 @@ nav h1 {
   font-weight: 800;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .info_section {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2rem;
+  }
+
+  .person-info {
+    padding-bottom: 4rem;
   }
 
   .goals-container {
