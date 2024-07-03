@@ -20,10 +20,6 @@ function displayUTCTime() {
   let utcHours = currentTime.getUTCHours();
   const utcMinutes = currentTime.getUTCMinutes().toString().padStart(2, "0");
   const utcSeconds = currentTime.getUTCSeconds().toString().padStart(2, "0");
-  const utcMilliseconds = currentTime
-    .getUTCMilliseconds()
-    .toString()
-    .padStart(3, "0");
 
   const ampm = utcHours >= 12 ? "PM" : "AM";
   utcHours = utcHours % 12;
